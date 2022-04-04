@@ -1,0 +1,1 @@
+// Neste arquivo é aonde funciona a lógica do Jogo LHF
