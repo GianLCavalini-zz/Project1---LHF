@@ -6,4 +6,4 @@
 
 console.log("Meu primeiro projeto começa aqui! :) ")
 
-console.log("teste")
+console.log(questions[0].options)

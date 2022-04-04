@@ -3,17 +3,16 @@
 
 const questions = [ {
   
- question1:
+
+        // Question 1
     
-    {
-      conceptDescription1:" No mundo da programação 'VARIÁVEL' é uma espécie de local aonde armazenamos informações. Essas variáveis são rotuladas por um nome, para que quando formos acessar essas informações, possamos encontra-las mais rapido.",
-    },
-    {
-      order1:"Selecione a opção correta e ajuda Pingo a entender o que é uma variavel.",
-    },
-    {
-      
-      options: [
+          conceptDescription1:" No mundo da programação 'VARIÁVEL' é uma espécie de local aonde armazenamos informações. Essas variáveis são rotuladas por um nome, para que     quando formos acessar essas informações, possamos encontra-las mais rapido.",
+
+          order1:"Selecione a opção correta e ajuda Pingo a entender o que é uma variavel.",
+    
+
+    
+            options: [
         {
             opt1: "VARIÁVEL = Linguagem de programação aonde usamos para guardar dados, inforamações e etc!",
             explanation1: "Poxa vida, VARIÁVEL não é uma linguagem de programação..mas toda linguagem tem variavel!"
@@ -28,18 +27,16 @@ const questions = [ {
         }
       ],
         correctAnwser: 1,
-    },
-  
+    
+        //Question 2
 
-    question2: 
+    
 
-     {
-        conceptDescription1:" Ja que sabemos que podemos guardar informações dentro de uma variavel, agora precisamos entender que tipo de informações são essas(ou seja o tipo de VALORES). Em JavaScript temos dois grupos de valores(PRIMITIVOS E NÃO-PRIMITIVOS), vamos ajudar pingo a entender somente o primeiro grupo (PRIMITIVO). Uma variavel do tipo Primitivo pode receber como valor: 'String', números e Boolenos (verdadeiro ou falso)".
-      },
-      {
+     
+        conceptDescription1:" Ja que sabemos que podemos guardar informações dentro de uma variavel, agora precisamos entender que tipo de informações são essas(ou seja o tipo de VALORES). Em JavaScript temos dois grupos de valores(PRIMITIVOS E NÃO-PRIMITIVOS), vamos ajudar pingo a entender somente o primeiro grupo (PRIMITIVO). Uma variavel do tipo Primitivo pode receber como valor: 'String', números e Boolenos (verdadeiro ou falso)",
+
         order2:"Pingo guardou a chave da porta da frente dentro de uma gaveta na cozinha de sua casa. Selecione a opção correta e ajude pingo a encontrar chave e chegar na Ironhack. DICA: const gaveta = nome do local aonde a chave se encontra && chave da porta da frente = 'String' (nao se preocupe com CONST, você vai entender logo logo)",
-      },
-      {
+    
         
         options: [
           {
@@ -56,19 +53,16 @@ const questions = [ {
           }
         ],
           correctAnwser: 0,
-      },
+      
     
 
-    
-        question3: 
-
-        {
+        //Question 3
+         
+        
            conceptDescription3:" Na linguagem de programção JavaScript ao declarar uma variavel, ou seja criar um local aonde vamos armazenar algum tipo de dado, podemos usar três keywords (plavras-chaves) para fazer isso: Let, Const e Var. Vamos nos concentrar somente nas duas primeiras. LET é uma 'keyword' para declarar uma variavel que você PODE alterar seu valor no futuro, ja a CONST é uma forma de declarar uma variavel aonde você não consegue alterar seu valor, uma vez que ja foi definido.",
-         },
-         {
-           order3:"Hoje é o primeiro dia de curso Web Dev de pingo, mas ele precisa levar o material correto. Pingo precisa levar: sua chave da porta da frente (variavel const), pois ele nao quer ficar pra fora quando voltar da IronHack, seu notebook( uma variavel let declarada com o nome dell recebendo valor de true(verdadeiro)) e seu estojo( uma variavel let com nome estojo recebendo o numero: 5).Encontre a opção certa e ajuda pingo a chegar bem preparado para a aula  de hoje "
-         },
-         {
+        
+           order3:"Hoje é o primeiro dia de curso Web Dev de pingo, mas ele precisa levar o material correto. Pingo precisa levar: sua chave da porta da frente (variavel const), pois ele nao quer ficar pra fora quando voltar da IronHack, seu notebook( uma variavel let declarada com o nome dell recebendo valor de true(verdadeiro)) e seu estojo( uma variavel let com nome estojo recebendo o numero: 5).Encontre a opção certa e ajuda pingo a chegar bem preparado para a aula  de hoje ",
+         
            
            options: [
              {
@@ -81,12 +75,9 @@ const questions = [ {
              },
              {
                  opt3:"[const cozinha = 'chave da porta da frente' , let dell = true, let estojo = 5];",
-                 explanation3: "PERFEITO MEU AMIGO! Pingo e você estão prontos par ao primeiro dia de aula na Ironhack!"
+                 explanation3: "PERFEITO MEU AMIGO! Pingo e você estão prontos para ao primeiro dia de aula na Ironhack!"
              }
            ],
              correctAnwser: 2,
-         }
-        
-         
- } ];
+        }]
   
