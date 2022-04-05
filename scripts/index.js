@@ -1,72 +1,62 @@
 // Este arquivo é aonde vou usar DOM para fazer meus outros arquivos js conversarem entre si e dar vida ao projeto.
 
+const quiz = new Game()
+
+
+
+
 
 // Elementos da primeira questão:
 const instructionOne = document.getElementById('instructions');
 const order1 = document.getElementById('ordens');
-const opcao1 = document.getElementById('opt1');
-const opcao2 = document.getElementById('opt2');
-const opcao3 = document.getElementById('opt3');
-
-
-instructionOne.innerText = questions[0].conceptDescription;
-order1.innerText = questions[0].order;
-opcao1.innerText = questions[0].options1[0].opt1;
-opcao2.innerText = questions[0].options1[1].opt2;
-opcao3.innerText = questions[0].options1[2].opt3;
-
+const opcao1 = document.getElementById('btnOpt1');
+const opcao2 = document.getElementById('btnOpt2');
+const opcao3 = document.getElementById('btnOpt3');
+const respostaCerta = document.getElementById('btnOpt2');
+const bntOptionOne = document.getElementById('btnOpt1');
+const bntOptionTwo = document.getElementById('btnOpt2');
+const bntOptionThree = document.getElementById('btnOpt3');
+const btnNextQuestion = document.getElementById('btn-next-alternative');
 
 
 
-
-
-
-
-
-
-
-
-
-/* 
-
-//console.log("Meu primeiro projeto começa aqui! :) ")
-
-
-
-//Elementos da primeira questão: Descrição e ordem:
-
-const description1 = questions[0].conceptDescription1;
-const firstOrder = questions[0].order1;
-
-// Opção e explicação da primeira alternativa:
-const firstAlternativeOptionOne = questions[0].options1[0].opt1;
-const firstExplanationAltOneOptOne = questions[0].options1[0].explanation1;
-
-/* //Opção e explicação da segunda alternativa:
-const secondAlternativeOptionOne = questions[0].options1[1].opt2;
-const secondExplanationAltTwoOptOne = questions[0].options1[1].explanation2;
-
-//Opção e explicação da terceira alternativa:
-const thirdAlternativeOptionOne = questions[0].options1[2].opt3;
-const thirdExplanationAltThreeOptOne = questions[0].options1[2].explanation3;
-
-//Alternativa Correta
-const correctAlternative1 = questions[0].correctAnwser1;
-
-
-
-
-//Elementos da segunda questão: Descrição e ordem
- const description2 = questions[0].conceptDescription2;
- const secondOrder = questions[0].order2;
-
- //Opção e explicação da primeira alternativa
- const firstAlternativeOptionTwo = questions[0].options2[0].opt1;
- const firstExplanationAltOneOpttwo = questions[0].options2[0].explanation1;
-
-/*  //Opção e explicação da segunda alternativa:
- const secondAlternativeOptiontwo = questions[0].options2[1].opt2;
- const secondExplanationAltTwoOptTwo = questions[0].options2[1].explanation2;
- */ 
+// Primeira alternativa
+instructionOne.innerText = quiz.imprimirPergunta().conceptDescription;
+order1.innerText = quiz.imprimirPergunta().order;
+opcao1.innerText = quiz.imprimirPergunta().options[0].opt1;
+opcao2.innerText = quiz.imprimirPergunta().options[1].opt2;
+opcao3.innerText = quiz.imprimirPergunta().options[2].opt3;
 
  
+bntOptionOne.addEventListener('click', () => {
+    console.log(bntOptionOne.innerText)
+if(bntOptionOne === respostaCerta){
+    alert(quiz.imprimirPergunta().options[0].explanation1)
+    } else {
+        alert(quiz.imprimirPergunta().options[0].explanation1)
+    }
+
+})
+
+
+bntOptionTwo.addEventListener('click', () => {
+    console.log(bntOptionTwo.innerText)
+ if(bntOptionTwo === respostaCerta){
+        alert(quiz.imprimirPergunta().options[1].explanation2)
+       } else {
+            alert(quiz.imprimirPergunta().options[1].explanation2)
+        } 
+})
+ 
+bntOptionThree.addEventListener('click', () => {
+    console.log(bntOptionThree.innerText)
+    if(bntOptionThree === respostaCerta){
+        alert(quiz.imprimirPergunta().options[2].explanation3)
+       } else {
+            alert(quiz.imprimirPergunta().options[2].explanation3)
+        } 
+})
+
+btnNextQuestion.addEventListener('click', () => {
+   proximaPergunta();
+})  

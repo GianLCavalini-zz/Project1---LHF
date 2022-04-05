@@ -8,17 +8,17 @@ const questions = [
 
         order:"Selecione a opção correta e ajude Pingo a entender o que é uma variável.",
   
-        options1: [
+        options: [
         {
           opt1: "VARIÁVEL = Linguagem de programação aonde usamos para guardar dados, inforamações e etc!",
-          explanation1: "Poxa vida, VARIÁVEL não é uma linguagem de programação.mas toda linguagem tem variável!"
+          explanation1: "Poxa vida, VARIÁVEL não é uma linguagem de programação mas toda linguagem tem variável!"
         },
         { 
-          opt2: "VARIÁVEL = Um 'local' aonde guardamos algo (dados,números, informações, etc), e que quando referenciado por um nome facilita encontrarmos o que procuramos", 
+          opt2: "VARIÁVEL = Um 'local' aonde guardamos algo (dados,números, informações, etc), e que quando referenciado por um nome facilita encontrarmos o que procuramos.", 
           explanation2: "Perfeito, você entendeu o conceito de VARIÁVEL!!" 
         },
         {
-          opt3:"VARIÁVEL = Comando na programação usado para armazenar números e informações apenas",
+          opt3:"VARIÁVEL = Comando na programação usado para armazenar números e informações apenas.",
           explanation3: "Quase.. Em uma variável você pode receber varios tipos de valores diferentes, mas esse tema vamos ver no próximo passo."
         }
       ],
@@ -33,7 +33,7 @@ const questions = [
         order:"Pingo guardou a chave da porta da frente dentro de uma gaveta na cozinha de sua casa. Selecione a opção correta e ajude pingo a encontrar chave e chegar na Ironhack. DICA: const gaveta = nome do local aonde a chave se encontra && chave da porta da frente = 'String' (nao se preocupe com CONST, você vai entender logo logo)",
     
         
-        options2: [
+        options: [
           {
               opt1: "const gaveta = ('chave da porta da frente')",
               explanation1: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
@@ -58,7 +58,7 @@ const questions = [
            order:"Hoje é o primeiro dia de curso Web Dev de pingo, mas ele precisa levar o material correto. Pingo precisa levar: sua chave da porta da frente (variável const), pois ele nao quer ficar pra fora quando voltar da IronHack, seu notebook( uma variável let declarada com o nome dell recebendo valor de true(verdadeiro)) e seu estojo( uma variável let com nome estojo recebendo o numero: 5).Encontre a opção certa e ajuda pingo a chegar bem preparado para a aula de hoje ",
          
            
-           options3: [
+           options: [
              {
                  opt1:"[let cozinha = 'chave da porta da frente' , const dell = true, let estojo = 5];",
                  explanation1: "NÃO! Preste atenção a keyword usada ao declarar as variáveis "
