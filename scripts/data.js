@@ -10,20 +10,23 @@ const questions = [
   
         options: [
         {
-          opt1: "VARIÁVEL = Linguagem de programação aonde usamos para guardar dados, inforamações e etc!",
-          explanation1: "Poxa vida, VARIÁVEL não é uma linguagem de programação mas toda linguagem tem variável!"
+          opt: "VARIÁVEL = Linguagem de programação aonde usamos para guardar dados, inforamações e etc!",
+          explanation: "Poxa vida, VARIÁVEL não é uma linguagem de programação mas toda linguagem tem variável!"
         },
         { 
-          opt2: "VARIÁVEL = Um 'local' aonde guardamos algo (dados,números, informações, etc), e que quando referenciado por um nome facilita encontrarmos o que procuramos.", 
-          explanation2: "Perfeito, você entendeu o conceito de VARIÁVEL!!" 
+          opt: "VARIÁVEL = Um 'local' aonde guardamos algo (dados,números, informações, etc), e que quando referenciado por um nome facilita encontrarmos o que procuramos.", 
+          explanation: "Perfeito, você entendeu o conceito de VARIÁVEL!!" 
         },
         {
-          opt3:"VARIÁVEL = Comando na programação usado para armazenar números e informações apenas.",
-          explanation3: "Quase.. Em uma variável você pode receber varios tipos de valores diferentes, mas esse tema vamos ver no próximo passo."
+          opt:"VARIÁVEL = Comando na programação usado para armazenar números e informações apenas.",
+          explanation: "Quase.. Em uma variável você pode receber varios tipos de valores diferentes, mas esse tema vamos ver no próximo passo."
         }
       ],
-
-        correctAnwser1: 1,
+      numeroCorreto: 2,
+    correctAnwser:{ 
+          opt: "VARIÁVEL = Um 'local' aonde guardamos algo (dados,números, informações, etc), e que quando referenciado por um nome facilita encontrarmos o que procuramos.", 
+          explanation: "Perfeito, você entendeu o conceito de VARIÁVEL!!" 
+        }
       },
 
     
@@ -35,19 +38,24 @@ const questions = [
         
         options: [
           {
-              opt1: "const gaveta = ('chave da porta da frente')",
-              explanation1: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
+              opt: "const gaveta = ('chave da porta da frente')",
+              explanation: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
           },
           { 
-              opt2: "const cozinha = ('chave da porta da frente')", 
-              explanation2: "poxa vida..cozinha não é o nome da nossa variável, tente ler o enununciado com mais calma, eu confio em você!" 
+              opt: "const cozinha = ('chave da porta da frente')", 
+              explanation: "poxa vida..cozinha não é o nome da nossa variável, tente ler o enununciado com mais calma, eu confio em você!" 
           },
           {
-              opt3:"let gaveta = ('chave da porta da frente')",
-              explanation3: "Foi por pouco, mas nossa variável é uma CONST e não uma LET. Bora ver a diferença das duas?"
+              opt:"let gaveta = ('chave da porta da frente')",
+              explanation: "Foi por pouco, mas nossa variável é uma CONST e não uma LET. Bora ver a diferença das duas?"
           }
         ],
-          correctAnwser2: 0,
+        numeroCorreto: 1,
+
+          correctAnwser: {
+            opt: "const gaveta = ('chave da porta da frente')",
+            explanation1: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
+          }
         },
       
   
@@ -60,18 +68,24 @@ const questions = [
            
            options: [
              {
-                 opt1:"[let cozinha = 'chave da porta da frente' , const dell = true, let estojo = 5];",
-                 explanation1: "NÃO! Preste atenção a keyword usada ao declarar as variáveis "
+                 opt:"[let cozinha = 'chave da porta da frente' , const dell = true, let estojo = 5];",
+                 explanation: "NÃO! Preste atenção a keyword usada ao declarar as variáveis "
              },
              { 
-                 opt2:"[const cozinha = 'chave da porta da frente' , let dell = false, let estojo = 5];",
-                 explanation2: "Será que um notebook dell é falso?" 
+                 opt:"[const cozinha = 'chave da porta da frente' , let dell = false, let estojo = 5];",
+                 explanation: "Será que um notebook dell é falso?" 
              },
              {
-                 opt3:"[const cozinha = 'chave da porta da frente' , let dell = true, let estojo = 5];",
-                 explanation3: "PERFEITO MEU AMIGO! Pingo e você estão prontos para o primeiro dia de aula na Ironhack!"
+                 opt:"[const cozinha = 'chave da porta da frente' , let dell = true, let estojo = 5];",
+                 explanation: "PERFEITO MEU AMIGO! Pingo e você estão prontos para o primeiro dia de aula na Ironhack!"
              }
            ],
-             correctAnwser3: 2,}
+           numeroCorreto: 3,
+
+             correctAnwser: {
+              opt:"[const cozinha = 'chave da porta da frente' , let dell = true, let estojo = 5];",
+              explanation: "PERFEITO MEU AMIGO! Pingo e você estão prontos para o primeiro dia de aula na Ironhack!"
+             }
+             ,}
         ]
 

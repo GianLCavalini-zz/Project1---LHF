@@ -1,8 +1,12 @@
 // Este arquivo é aonde vou usar DOM para fazer meus outros arquivos js conversarem entre si e dar vida ao projeto.
 
-const quiz = new Game()
+const quiz = new Game(questions);
 
 
+
+//Botões
+const botoes = document.getElementsByClassName('btn');
+const btnNextQuestion = document.getElementById('btn-next-alternative');
 
 
 
@@ -12,22 +16,28 @@ const order1 = document.getElementById('ordens');
 const opcao1 = document.getElementById('btnOpt1');
 const opcao2 = document.getElementById('btnOpt2');
 const opcao3 = document.getElementById('btnOpt3');
-const respostaCerta = document.getElementById('btnOpt2');
-const bntOptionOne = document.getElementById('btnOpt1');
-const bntOptionTwo = document.getElementById('btnOpt2');
-const bntOptionThree = document.getElementById('btnOpt3');
-const btnNextQuestion = document.getElementById('btn-next-alternative');
+const information = document.getElementById('info');
+
+const respostaCerta = quiz.imprimirPergunta().correctAnwser;
+console.log(respostaCerta);
 
 
 
-// Primeira alternativa
+
+
+//function currentQuenstion(){
+
 instructionOne.innerText = quiz.imprimirPergunta().conceptDescription;
 order1.innerText = quiz.imprimirPergunta().order;
-opcao1.innerText = quiz.imprimirPergunta().options[0].opt1;
-opcao2.innerText = quiz.imprimirPergunta().options[1].opt2;
-opcao3.innerText = quiz.imprimirPergunta().options[2].opt3;
+opcao1.innerText = quiz.imprimirPergunta().options[0].opt;
+opcao2.innerText = quiz.imprimirPergunta().options[1].opt;
+opcao3.innerText = quiz.imprimirPergunta().options[2].opt;
 
- 
+
+
+
+
+/*  
 bntOptionOne.addEventListener('click', () => {
     console.log(bntOptionOne.innerText)
 if(bntOptionOne === respostaCerta){
@@ -57,6 +67,43 @@ bntOptionThree.addEventListener('click', () => {
         } 
 })
 
+ */
+
 btnNextQuestion.addEventListener('click', () => {
-   proximaPergunta();
-})  
+    
+    
+    quiz.proximaPergunta();
+
+instructionOne.innerText = quiz.imprimirPergunta().conceptDescription;
+order1.innerText = quiz.imprimirPergunta().order;
+opcao1.innerText = quiz.imprimirPergunta().options[0].opt;
+opcao2.innerText = quiz.imprimirPergunta().options[1].opt;
+opcao3.innerText = quiz.imprimirPergunta().options[2].opt;
+
+information.innerText = "";
+
+      
+})   
+
+for(let i = 0; i < 3; i++) {
+    botoes[i].addEventListener('click', () => {
+        botoes[i].setAttribute("value", i)
+        
+
+        const acertou = quiz.retornoRepostaCerta(botoes[i].value)
+        
+
+        if(acertou === true) {
+            information.innerText = quiz.imprimirPergunta().correctAnwser.explanation;
+        } else {
+            information.innerText = quiz.imprimirPergunta().options[i].explanation;
+
+            
+        }
+
+    })
+
+    console.log(botoes[i].value);
+
+
+}
