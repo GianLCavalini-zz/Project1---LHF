@@ -50,11 +50,12 @@ const questions = [
               explanation: "Foi por pouco, mas nossa variável é uma CONST e não uma LET. Bora ver a diferença das duas?"
           }
         ],
+
         numeroCorreto: 1,
 
-          correctAnwser: {
+        correctAnwser: {
             opt: "const gaveta = ('chave da porta da frente')",
-            explanation1: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
+            explanation: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
           }
         },
       

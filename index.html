@@ -9,8 +9,9 @@
     <title>Project1-LHF</title>
 </head>
 <body>
+    
 
-    <section id="left-box">
+    <section id="big-box">
             
         <h1 class="title">LHF - JS</h1>
              
@@ -24,26 +25,32 @@
                <button value="3" id="btnOpt3" class="btn"> </button>
             </div>
 
-            <button id="btn-next-alternative" class="btn">Proxima Pergunta</button>
+            <button id="btn-next-alternative" class="btn  hidden">Proxima Pergunta</button>
 
             <div>
                 <p id="info"> </p>
             </div>
-        
-    </section>
 
-    <section id="rigth-box">
-        
-            <p id="teste"> THE SHOW IS GONA BE HERE!!</p>
-            <img class="city" src="./assets/city.jpg" alt="cidade SP 2d">
-            <img class="pingo" src="./assets/gif pingo.gif" alt="pingo andando"
-        
+            <button id="modalBtn" class="btn hidden">Resultado</button>
 
-
+           
+        
+        
+            <img class="pingo" src="./assets/gif pingo.gif" alt="pingo andando">
 
 
         
     </section>
+
+    <div id="myModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close"></span>
+            <p class="pblack">PARABÉNS</p>
+            <img class="win" src="./assets/youWin.jpg" alt="troféu de vitória"/>
+            <p class="pblack">Você sabe conceitos básicos sobre programação em Javascript....te aguardo nas proximas fases.</p>
+        </div>
+    </div>  
+
 
     <script src="./scripts/data.js" ></script>
     <script src="./scripts/class.js"></script>
