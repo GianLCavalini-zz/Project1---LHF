@@ -1,23 +1,24 @@
 
 
 body {
-    background-color: darkcyan;
+    background-color: #38a1a1;
     font-family:Arial, Helvetica, sans-serif;
-    border-width: 10px;
-    border-style:inset;
-    border-color: azure;
+    
     }
 
 #big-box {
     margin: 0 20%;
     position: relative;
     padding: 2em;
-    background-color: darkcyan;
+    background-color: #34cfcf;
     color:azure;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-width: 10px;
+    border-style:inset;
+    border-color: azure;
     
 
     
@@ -118,11 +119,22 @@ body {
 }
 
 .pingo{
+    position: relative;
+    height: 70px;
     
-    height: 80px;
+}
+.computer{
+    height: 80px ;
 }
 
 .pblack{
     color: black;
+}
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    margin-top: 80px;
 }
 

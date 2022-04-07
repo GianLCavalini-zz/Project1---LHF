@@ -45,9 +45,7 @@ btnNextQuestion.addEventListener('click', () => {
     btnNextQuestion.classList.add("hidden");
     quiz.proximaPergunta();
     currentQuenstion();
-    information.innerText = "";
-
-    
+    information.innerText = "";    
 })
 
 
@@ -65,9 +63,7 @@ for(let i = 0; i < 3; i++) {
         if(acertou === true && i <= 1) {
             information.innerText = quiz.imprimirPergunta().correctAnwser.explanation;
             btnNextQuestion.classList.remove("hidden");
-         /*    if(botoes[i] === 3) {
-                modal.classList.remove("hidden");
-            } */
+         
 
             
 

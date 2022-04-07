@@ -36,8 +36,7 @@ class Game {
     }
 
 
-    // metodo game over
-
+    
 }
 
 
