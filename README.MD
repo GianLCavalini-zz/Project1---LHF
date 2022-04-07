@@ -12,9 +12,9 @@ Turma: WebDevelopmentFullTime MAR2022!
 
 **Como jogar?**
 - Clique nas alternativas para aprender. 
-- Caso você erre, ira entender o porque errou!
+- Errou? Relaxa...você vai entender o porquê errou!
 - Persista até achar a alternativa certa .
 
 **Objetivo do projeto:**
-- Este projeto tem por obejtivo validar conhecimentos em JavaScript, HTML e CSS. 
+- Este projeto tem por objetivo validar conhecimentos em JavaScript, HTML e CSS. 
 
