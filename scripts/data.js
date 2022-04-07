@@ -4,13 +4,13 @@
 const questions = [ 
         {// Question 1
     
-        conceptDescription:" No mundo da programação 'VARIÁVEL' é uma espécie de local aonde armazenamos informações. Essas variáveis são rotuladas por um nome, para que     quando formos acessar essas informações, possamos encontra-las mais rapido.",
+        conceptDescription:" No mundo da programação 'VARIÁVEL' é uma espécie de local aonde armazenamos informações. Essas variáveis são rotuladas por um nome, para que     quando formos acessar essas informações, possamos encontrá-las mais rápido.",
 
         order:"Selecione a opção correta e ajude Pingo a entender o que é uma variável.",
   
         options: [
         {
-          opt: "VARIÁVEL = Linguagem de programação aonde usamos para guardar dados, inforamações e etc!",
+          opt: "VARIÁVEL = Linguagem de programação aonde usamos para guardar dados, informações e etc!",
           explanation: "Poxa vida, VARIÁVEL não é uma linguagem de programação mas toda linguagem tem variável!"
         },
         { 
@@ -31,22 +31,22 @@ const questions = [
 
     
         {//Question 2
-        conceptDescription:" Ja que sabemos que podemos guardar informações dentro de uma variável, agora precisamos entender que tipo de informações são essas(ou seja o tipo de VALORES). Em JavaScript temos dois grupos de valores (PRIMITIVOS E NÃO-PRIMITIVOS), vamos ajudar pingo a entender somente o primeiro grupo (PRIMITIVO). Uma variável do tipo Primitivo pode receber como valor: 'String', números e Boolenos (verdadeiro ou falso)",
+        conceptDescription:" Ja sabemos que podemos guardar informações dentro de uma variável, agora precisamos entender que tipo de informações são essas (ou seja seus VALORES). Em JavaScript temos dois grupos de valores (PRIMITIVOS E NÃO-PRIMITIVOS), vamos ajudar Pingo a entender somente o primeiro grupo (PRIMITIVO). Uma variável do tipo Primitivo pode receber como valor: 'String', números e Boolenos (verdadeiro ou falso)",
 
         order:"Pingo guardou a chave da porta da frente dentro de uma gaveta na cozinha de sua casa. Selecione a opção correta e ajude pingo a encontrar chave e chegar na Ironhack. DICA: const gaveta = nome do local aonde a chave se encontra && chave da porta da frente = 'String' (nao se preocupe com CONST, você vai entender logo logo)",
     
         
         options: [
           {
-              opt: "const gaveta = ('chave da porta da frente')",
+              opt: "const gaveta = 'chave da porta da frente'",
               explanation: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
           },
           { 
-              opt: "const cozinha = ('chave da porta da frente')", 
+              opt: "const cozinha = 'chave da porta da frente'", 
               explanation: "poxa vida..cozinha não é o nome da nossa variável, tente ler o enununciado com mais calma, eu confio em você!" 
           },
           {
-              opt:"let gaveta = ('chave da porta da frente')",
+              opt:"let gaveta = 'chave da porta da frente'",
               explanation: "Foi por pouco, mas nossa variável é uma CONST e não uma LET. Bora ver a diferença das duas?"
           }
         ],
@@ -55,16 +55,16 @@ const questions = [
 
         correctAnwser: {
             opt: "const gaveta = ('chave da porta da frente')",
-            explanation: "CHAMAA!! Agora pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
+            explanation: "CHAMAA!! Agora Pingo sabe os tipos primitivos de valores que uma variável pode receber e consegue sair de casa!!"
           }
         },
       
   
 
           {//Question 3
-          conceptDescription:" Na linguagem de programção JavaScript ao declarar uma variável, ou seja criar um local aonde vamos armazenar algum tipo de dado, podemos usar três keywords (plavras-chaves) para fazer isso: Let, Const e Var. Vamos nos concentrar somente nas duas primeiras. LET é uma 'keyword' para declarar uma variável que você PODE alterar seu valor no futuro, ja a CONST é uma forma de declarar uma variável aonde você não consegue alterar seu valor, uma vez que ja foi definido.",
+          conceptDescription:" Na linguagem de programção JavaScript ao declarar uma variável, ou seja criar um local aonde vamos armazenar algum tipo de dado, podemos usar três keywords (plavras-chaves) para fazer isso: Let, Const e Var. Vamos nos concentrar somente nas duas primeiras. LET é uma 'keyword' usada para declarar uma variável que você PODE alterar seu valor no futuro, ja CONST é uma forma de declarar variável aonde você não consegue alterar seu valor, uma vez que ja foi definido",
         
-           order:"Hoje é o primeiro dia de curso Web Dev de pingo, mas ele precisa levar o material correto. Pingo precisa levar: sua chave da porta da frente (variável const), pois ele nao quer ficar pra fora quando voltar da IronHack, seu notebook( uma variável let declarada com o nome dell recebendo valor de true(verdadeiro)) e seu estojo( uma variável let com nome estojo recebendo o numero: 5).Encontre a opção certa e ajuda pingo a chegar bem preparado para a aula de hoje ",
+           order:"Hoje é o primeiro dia de curso Web Dev de Pingo, e para isso ele precisa levar o material correto. Pingo precisa levar: sua chave da porta da frente (variável const), pois ele nao quer ficar pra fora quando voltar da IronHack, seu notebook ( uma variável let declarada com o nome dell recebendo valor de true(verdadeiro) e seu estojo ( uma variável let com nome estojo recebendo o numero: 5 .Encontre a opção certa e ajuda Pingo a chegar bem preparado para a aula de hoje ",
          
            
            options: [
