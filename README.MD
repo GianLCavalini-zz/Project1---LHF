@@ -5,7 +5,7 @@
 Primeiro projeto - Construa um jogo usando **DOM**. 
 Turma: WebDevelopmentFullTime MAR2022!
 
-*Bora aprender conceitos básico de prgramação?*
+*Bora aprender conceitos básico de programação?*
 
 **Objetivo:**
  - Selecionar as alternativas corretas enquanto aprende!
@@ -20,7 +20,7 @@ Turma: WebDevelopmentFullTime MAR2022!
 
 ## Links
 
-[Link para apresentação] (https://prezi.com/view/XQoP52BRzxxInUM2sV3X/) - Apresentação do Projeto LHF Quiz.
+[Link para apresentação](https://prezi.com/view/XQoP52BRzxxInUM2sV3X/) - Apresentação do Projeto LHF Quiz.
 
-[Clique aqui para Jogar] (https://gianlcavalini.github.io/Project1---LHF/) - Divirta-se!
+[Clique aqui para Jogar](https://gianlcavalini.github.io/Project1---LHF/) - Divirta-se!
 
