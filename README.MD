@@ -18,3 +18,9 @@ Turma: WebDevelopmentFullTime MAR2022!
 **Objetivo do projeto:**
 - Este projeto tem por objetivo validar conhecimentos em JavaScript, HTML e CSS. 
 
+## Links
+
+[Link para apresentação] (https://prezi.com/view/XQoP52BRzxxInUM2sV3X/) - Apresentação do Projeto LHF Quiz.
+
+[Clique aqui para Jogar] (https://gianlcavalini.github.io/Project1---LHF/) - Divirta-se!
+
