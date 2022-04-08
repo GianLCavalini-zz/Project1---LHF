@@ -1,6 +1,6 @@
 
 
-# Learn having fun - LHF/Js
+# Learn having fun - LHF/Js ![](./assets/gif%20pingo.gif)
 
 Primeiro projeto - Construa um jogo usando **DOM**. 
 Turma: WebDevelopmentFullTime MAR2022!
