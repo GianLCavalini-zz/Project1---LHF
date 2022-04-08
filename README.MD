@@ -5,7 +5,7 @@
 Primeiro projeto - Construa um jogo usando **DOM**. 
 Turma: WebDevelopmentFullTime MAR2022!
 
-*Bora aprender conceitos básico de programação?*
+*Bora aprender conceitos básicos de programação?*
 
 **Objetivo:**
  - Selecionar as alternativas corretas enquanto aprende!
